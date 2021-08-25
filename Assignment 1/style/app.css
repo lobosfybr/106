@@ -1,0 +1,63 @@
+:root{
+    --color1: #35393c;
+    --color2: #42858C;
+    --color3: #5DA399;
+    --color4: #63CCCA;
+    --color5: #397367;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background-color: var(--color1);
+}
+header img{
+    width: 15vw;
+}
+
+/* MAIN */
+.capture-form{
+    border: 5px solid var(--color4);
+    padding: 20px 10px;
+    
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 4px #c0c0c0;
+    border-radius: 6px;
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; These four lines are the same as line below. Order is clockwise*/
+    margin: 30px auto 20px auto;
+}
+
+.capture-form h3{
+    margin-bottom: 15px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-item{
+    border:1px solid rgb(71, 100, 114);
+    margin: 10px 50px;
+    padding: 10px 30px;
+    color: #333;
+    background-color: #63ccca33;
+    border-radius: 4px;
+}
+
+.todo-item:hover{
+    border-color: rgb(182, 63, 33);
+    color: #000;
+    box-shadow: 0 2px 4px #c0c0c0;
+    cursor: pointer;
+}
+
+/* h5 inside todo-item */
+.todo-item h5{
+    display: inline-block;
+    width: 90%;
+}
